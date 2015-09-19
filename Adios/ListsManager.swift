@@ -33,7 +33,7 @@ public class ListsManager {
             
             
             let fileManager = NSFileManager()
-            let groupUrl = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.AG.Adios")
+            let groupUrl = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.power.Adios")
             let sharedContainerPathLocation = groupUrl?.path
 
             if baseListWithoutWhitelist == "" {
@@ -130,7 +130,7 @@ public class ListsManager {
     }
     
     public class func removeFollowedListsData() {
-        if let groupUrl = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.AG.Adios") {
+        if let groupUrl = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.power.Adios") {
             if let groupPath = groupUrl.path {
                 if NSFileManager().fileExistsAtPath(groupPath + "/baseList.json") {
                     try! NSFileManager().removeItemAtPath(groupPath + "/baseList.json")

@@ -101,7 +101,7 @@ class WhitelistViewController: UIViewController, UITableViewDataSource, UITableV
         NSUserDefaults.standardUserDefaults().synchronize()
         
         let fileManager = NSFileManager()
-        let groupUrl = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.AG.Adios")
+        let groupUrl = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.power.Adios")
         let sharedContainerPathLocation = groupUrl?.path
         
         var baseList = self.baseListWithoutWhitelist + whitelistAssembled

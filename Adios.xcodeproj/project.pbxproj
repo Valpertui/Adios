@@ -11,27 +11,27 @@
 		C404E4631B827219006BB98E /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = C404E4621B827219006BB98E /* blockerList.json */; };
 		C404E4651B827219006BB98E /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C404E4641B827219006BB98E /* ActionRequestHandler.swift */; };
 		C404E4691B827219006BB98E /* BaseContentBlocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C404E4601B827219006BB98E /* BaseContentBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C41B5AA21B948E0E005043D6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41B5AA11B948E0E005043D6 /* Parser.swift */; settings = {ASSET_TAGS = (); }; };
+		C41B5AA21B948E0E005043D6 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41B5AA11B948E0E005043D6 /* Parser.swift */; };
 		C41CA5C81B833293000255F3 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CA5C71B833293000255F3 /* DownloadManager.swift */; };
 		C41CA5CA1B839FCE000255F3 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CA5C91B839FCE000255F3 /* Rule.swift */; };
 		C41CA5CC1B83A149000255F3 /* ListsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CA5CB1B83A149000255F3 /* ListsManager.swift */; };
 		C4316F721B80E074004C047F /* AdiosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4316F711B80E074004C047F /* AdiosViewController.swift */; };
 		C4316F741B80E16D004C047F /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4316F731B80E16D004C047F /* HelpViewController.swift */; };
 		C434CB5B1B879A1800537B55 /* TwoMoreThingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C434CB5A1B879A1800537B55 /* TwoMoreThingsViewController.swift */; };
-		C43D698B1B986EC5002829E5 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = C43D698A1B986EC5002829E5 /* style.css */; settings = {ASSET_TAGS = (); }; };
+		C43D698B1B986EC5002829E5 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = C43D698A1B986EC5002829E5 /* style.css */; };
 		C4443AE71B8927DB004EE04C /* OnboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443AE61B8927DB004EE04C /* OnboardManager.swift */; };
 		C4443AE91B8932D9004EE04C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4443AE81B8932D9004EE04C /* DetailsViewController.swift */; };
 		C44ABAAD1B9D97E4008E7CFA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C44ABAAF1B9D97E4008E7CFA /* Localizable.strings */; };
-		C44ABAB21B9DD66A008E7CFA /* dutch.html in Resources */ = {isa = PBXBuildFile; fileRef = C44ABAB11B9DD66A008E7CFA /* dutch.html */; settings = {ASSET_TAGS = (); }; };
-		C45356B51B98224700791CDC /* WhitelistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45356B41B98224700791CDC /* WhitelistViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C45356B71B983F0A00791CDC /* SimpleConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45356B61B983F0A00791CDC /* SimpleConfigurationViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C45687241B9595700086DD0E /* IgnoringRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45687231B9595700086DD0E /* IgnoringRule.swift */; settings = {ASSET_TAGS = (); }; };
-		C470BD3C1B9B2F9400D697DF /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470BD3B1B9B2F9400D697DF /* UpdateViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		C47E44231B94A34400DFC55A /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E44221B94A34400DFC55A /* Regex.swift */; settings = {ASSET_TAGS = (); }; };
+		C44ABAB21B9DD66A008E7CFA /* dutch.html in Resources */ = {isa = PBXBuildFile; fileRef = C44ABAB11B9DD66A008E7CFA /* dutch.html */; };
+		C45356B51B98224700791CDC /* WhitelistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45356B41B98224700791CDC /* WhitelistViewController.swift */; };
+		C45356B71B983F0A00791CDC /* SimpleConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45356B61B983F0A00791CDC /* SimpleConfigurationViewController.swift */; };
+		C45687241B9595700086DD0E /* IgnoringRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45687231B9595700086DD0E /* IgnoringRule.swift */; };
+		C470BD3C1B9B2F9400D697DF /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C470BD3B1B9B2F9400D697DF /* UpdateViewController.swift */; };
+		C47E44231B94A34400DFC55A /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47E44221B94A34400DFC55A /* Regex.swift */; };
 		C4C2B1C61B8A2D780099240A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C2B1C51B8A2D780099240A /* Reachability.swift */; };
-		C4C9667B1B9885A8000278A0 /* french.html in Resources */ = {isa = PBXBuildFile; fileRef = C4C9667A1B9885A8000278A0 /* french.html */; settings = {ASSET_TAGS = (); }; };
-		C4C9667D1B9885BF000278A0 /* english.html in Resources */ = {isa = PBXBuildFile; fileRef = C4C9667C1B9885BF000278A0 /* english.html */; settings = {ASSET_TAGS = (); }; };
-		C4C9667F1B98BF79000278A0 /* spanish.html in Resources */ = {isa = PBXBuildFile; fileRef = C4C9667E1B98BF79000278A0 /* spanish.html */; settings = {ASSET_TAGS = (); }; };
+		C4C9667B1B9885A8000278A0 /* french.html in Resources */ = {isa = PBXBuildFile; fileRef = C4C9667A1B9885A8000278A0 /* french.html */; };
+		C4C9667D1B9885BF000278A0 /* english.html in Resources */ = {isa = PBXBuildFile; fileRef = C4C9667C1B9885BF000278A0 /* english.html */; };
+		C4C9667F1B98BF79000278A0 /* spanish.html in Resources */ = {isa = PBXBuildFile; fileRef = C4C9667E1B98BF79000278A0 /* spanish.html */; };
 		C4CF6FDD1B8D13C300CD27FC /* ContentBlockers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CF6FDC1B8D13C300CD27FC /* ContentBlockers.swift */; };
 		C4E2060C1B773F6B00C280DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E2060B1B773F6B00C280DF /* AppDelegate.swift */; };
 		C4E206111B773F6B00C280DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E2060F1B773F6B00C280DF /* Main.storyboard */; };
@@ -455,12 +455,13 @@
 		C4E206001B773F6B00C280DF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Armand Grillet";
 				TargetAttributes = {
 					C404E45F1B827219006BB98E = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = BL4CLL95SL;
+						DevelopmentTeam = 9RHKD5EG85;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -469,7 +470,7 @@
 					};
 					C4E206071B773F6B00C280DF = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = BL4CLL95SL;
+						DevelopmentTeam = 9RHKD5EG85;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -492,7 +493,7 @@
 					};
 					C4E2063F1B77402A00C280DF = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = BL4CLL95SL;
+						DevelopmentTeam = 9RHKD5EG85;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -744,7 +745,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BaseContentBlocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AG.Adios.BaseContentBlocker;
+				PRODUCT_BUNDLE_IDENTIFIER = power.Adios.BaseContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -760,7 +761,7 @@
 				INFOPLIST_FILE = BaseContentBlocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = AG.Adios.BaseContentBlocker;
+				PRODUCT_BUNDLE_IDENTIFIER = power.Adios.BaseContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -771,7 +772,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -818,7 +818,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -861,12 +860,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Adios/Adios.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Armand Grillet (38834SJ24R)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Armand Grillet (38834SJ24R)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Adios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AG.Adios;
+				PRODUCT_BUNDLE_IDENTIFIER = power.Adios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -879,13 +878,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Adios/Adios.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Armand Grillet (38834SJ24R)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Armand Grillet (38834SJ24R)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Adios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = AG.Adios;
+				PRODUCT_BUNDLE_IDENTIFIER = power.Adios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -948,7 +947,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ContentBlocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AG.Adios.ContentBlocker;
+				PRODUCT_BUNDLE_IDENTIFIER = power.Adios.ContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -964,7 +963,7 @@
 				INFOPLIST_FILE = ContentBlocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = AG.Adios.ContentBlocker;
+				PRODUCT_BUNDLE_IDENTIFIER = power.Adios.ContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;

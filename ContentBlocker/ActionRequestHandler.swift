@@ -12,7 +12,7 @@ import MobileCoreServices
 class ActionRequestHandler: NSObject, NSExtensionRequestHandling {
     
     func beginRequestWithExtensionContext(context: NSExtensionContext) {
-        let groupUrl = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.AG.Adios")
+        let groupUrl = NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.power.Adios")
         let sharedContainerPathLocation = groupUrl?.path
         
         let filePath = sharedContainerPathLocation! + "/secondList.json"
