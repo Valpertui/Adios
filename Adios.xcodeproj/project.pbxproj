@@ -897,7 +897,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AdiosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AG.AdiosTests;
+				PRODUCT_BUNDLE_IDENTIFIER = power.AdiosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adios.app/Adios";
 			};
@@ -909,7 +909,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AdiosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AG.AdiosTests;
+				PRODUCT_BUNDLE_IDENTIFIER = power.AdiosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adios.app/Adios";
 			};
@@ -920,7 +920,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = AdiosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AG.AdiosUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = power.AdiosUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = Adios;
 				USES_XCTRUNNER = YES;
@@ -932,7 +932,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = AdiosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AG.AdiosUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = power.AdiosUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = Adios;
 				USES_XCTRUNNER = YES;

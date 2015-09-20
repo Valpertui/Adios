@@ -36,11 +36,15 @@ class LoadingViewController: UIViewController {
                 self.performSegueWithIdentifier("Done", sender: self)
             })
         } else if message == "fail" {
-            self.status.text = NSLocalizedString("Something went wrong!", comment: "Alert label when something went wrong")
-            self.cancelButton.enabled = true
-            self.cancelButton.setTitle(NSLocalizedString("Cancel", comment: "Button label to cancel something"), forState: .Normal)
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                self.status.text = NSLocalizedString("Something went wrong!", comment: "Alert label when something went wrong")
+                self.cancelButton.enabled = true
+                self.cancelButton.setTitle(NSLocalizedString("Cancel", comment: "Button label to cancel something"), forState: .Normal)
+            });
         } else if message != nil {
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
             self.status.text = NSLocalizedString(message!, comment: "Message from the model to tell what's happening when loading the lists")
+            });
         }
     }
     

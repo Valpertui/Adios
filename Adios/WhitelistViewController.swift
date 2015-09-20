@@ -122,9 +122,9 @@ class WhitelistViewController: UIViewController, UITableViewDataSource, UITableV
             try! secondList.writeToFile(secondListPath, atomically: true, encoding: NSUTF8StringEncoding)
         }
         
-        SFContentBlockerManager.reloadContentBlockerWithIdentifier("AG.Adios.BaseContentBlocker") { (error: NSError?) -> Void in
+        SFContentBlockerManager.reloadContentBlockerWithIdentifier("power.Adios.BaseContentBlocker") { (error: NSError?) -> Void in
             if error == nil {
-                SFContentBlockerManager.reloadContentBlockerWithIdentifier("AG.Adios.ContentBlocker") { (otherError: NSError?) -> Void in
+                SFContentBlockerManager.reloadContentBlockerWithIdentifier("power.Adios.ContentBlocker") { (otherError: NSError?) -> Void in
                     if otherError == nil {
                         self.performSegueWithIdentifier("Done", sender: self)
                     } else {

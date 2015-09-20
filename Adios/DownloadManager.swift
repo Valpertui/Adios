@@ -93,6 +93,7 @@ class DownloadManager {
             userDefaults.synchronize()
             downloadRulesFromList(lists[0], nextLists: Array(lists.dropFirst()), rulesBaseContentBlocker: "", rulesContentBlocker: "")
         }
+        
     }
     
     func downloadFollowedLists() {

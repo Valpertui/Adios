@@ -11,9 +11,9 @@ import SafariServices
 
 public class ContentBlockers {
     public class func reload(callback: ((Bool) -> Void)) {
-        SFContentBlockerManager.reloadContentBlockerWithIdentifier("AG.Adios.BaseContentBlocker") { (error: NSError?) -> Void in
+        SFContentBlockerManager.reloadContentBlockerWithIdentifier("power.Adios.BaseContentBlocker") { (error: NSError?) -> Void in
             if error == nil {
-                SFContentBlockerManager.reloadContentBlockerWithIdentifier("AG.Adios.ContentBlocker") { (otherError: NSError?) -> Void in
+                SFContentBlockerManager.reloadContentBlockerWithIdentifier("power.Adios.ContentBlocker") { (otherError: NSError?) -> Void in
                     if error == nil {
                         callback(true)
                     } else {
